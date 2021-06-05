@@ -1,6 +1,16 @@
+@font-face {
+  font-family: "NotoSansJP";
+  src: url("fonts/NotoSansJP-Regular.otf");
+}
+
+.noto-sans {
+  font-family: "NotoSansJP";
+}
+
 * {
   margin: 0;
   padding: 0;
+  color: #b61f9e;
 }
 
 body {
@@ -9,19 +19,19 @@ body {
   justify-content: space-around;
   width: 100vw;
   height: 100vh;
-  background-color: red;
+  background-color: #ff0000;
 }
 
 #center {
   width: 40vw;
   height: 100vh;
-  background-color: green;
+  background-color: #008000;
 }
 
 .side {
   width: 25vw;
   height: 100vh;
-  background-color: blue;
+  background-color: #0000ff;
   display: flex;
   flex-direction: column;
 }
@@ -30,12 +40,24 @@ body {
   display: flex;
   justify-content: center;
   width: 100%;
-  background-color: black;
+  background-color: #000000;
 }
 
 #weather {
   margin-top: 30px;
   width: 100px;
   height: 100px;
-  background-color: white;
+  background-color: #ffffff;
 }
+
+#time {
+  color: #ffffff;
+  text-align: center;
+}
+
+.center-vertically {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
